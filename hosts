@@ -1,0 +1,4 @@
+# Setup this in /etc/hosts
+
+35.239.55.205      a.ansible-node.com
+34.134.100.144     b.ansible-node.com

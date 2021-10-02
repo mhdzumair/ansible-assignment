@@ -1,0 +1,5 @@
+---
+# vars file for web-stg
+hostname:
+  a.ansible-node.com: lt-2021-095-webserver1
+  b.ansible-node.com: lt-2021-095-webserver2

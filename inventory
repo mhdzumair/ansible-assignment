@@ -1,0 +1,9 @@
+[nodes]
+a.ansible-node.com
+b.ansible-node.com
+
+[node1]
+a.ansible-node.com
+
+[node2]
+b.ansible-node.com

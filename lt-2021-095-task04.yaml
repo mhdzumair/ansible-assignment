@@ -1,0 +1,19 @@
+---
+- name: setup task 01 and task 02 on node1
+  hosts: node1
+  roles:
+   - web-stg
+
+- name: setup task 01 and task 02 on node2
+  hosts: node2
+  roles:
+   - web-stg
+
+# - name: change fqdn
+#   run_once: true
+#   become: False
+#   hosts: localhost
+#   tasks:
+#     - name: change fqdn
+#       shell:
+#         cmd: ./task02.sh
